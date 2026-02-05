@@ -85,5 +85,9 @@ The application will open automatically at `http://localhost:3000`.
 *   `frontend/src/translations.js`: Centralized internationalization system.
 
 ---
+## 🏃 Check the live demo here
+
+`https://financial-health-ai.netlify.app`
+
 
 **Last Updated**: February 2026
