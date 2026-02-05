@@ -58,7 +58,7 @@ FinHealth AI is an advanced, AI-powered financial health assessment platform whi
 ```bash
 uvicorn main:app --reload --port 8000
 ```
-The API will be available at `http://localhost:8000`.
+The API will be available at `https://finhealthai.onrender.com`.
 
 ### Step 3: Setup and Start Frontend
 1.  Navigate to the `frontend` directory:

@@ -52,7 +52,7 @@ const FinancialForm = ({ onAnalyze, businessProfile, language }) => {
                 language: language || "en"
             };
 
-            const response = await axios.post('http://localhost:8000/analyze', analysisRequest);
+            const response = await axios.post('https://finhealthai.onrender.com/analyze', analysisRequest);
             onAnalyze(response.data);
         } catch (error) {
             console.error("Error analyzing data:", error);
@@ -81,7 +81,7 @@ const FinancialForm = ({ onAnalyze, businessProfile, language }) => {
             });
 
             const response = await axios.post(
-                `http://localhost:8000/upload?${params.toString()}`,
+                `https://finhealthai.onrender.com/upload?${params.toString()}`,
                 uploadData,
                 { headers: { 'Content-Type': 'multipart/form-data' } }
             );
